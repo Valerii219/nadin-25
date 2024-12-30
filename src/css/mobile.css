@@ -1,0 +1,50 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 428px;
+  }
+
+  /*- ---=============================------HEADER--------------- */
+  .number-mob {
+    font-size: 36px;
+    line-height: calc(40 / 36);
+  }
+  .soc-item-mob:not(:last-child) {
+    margin-right: 56px;
+  }
+  /*- -----=========================----//HEADER--------------- */
+
+  /*- -----====================================----HERO-------------- */
+
+  .hero {
+    background-image: var(--linear-gradient-bg), url(../images/photo-mob2.jpg);
+    max-width: 428px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    /* background-size:contain; */
+    background-position: right;
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--linear-gradient-bg), url(../images/photo1.jpg);
+    }
+
+  }
+
+  /*- ---========================================------//HERO-------------- */
+
+  /* ========================PORTFOLIO =============*/
+  .portfolio {
+    width: 428px;
+  }
+  /* ========================////PORTFOLIO =============*/
+  .container-footer {
+    width: 428px;
+  }
+  .form-input {
+    min-width: 396px;
+  }
+}
