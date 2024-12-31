@@ -422,6 +422,9 @@ input {
 .button-none {
   display: none;
 }
+section{
+  outline: 2px solid tomato;
+}
 .section-buttton {
   padding-top: 48px;
   padding-bottom: 48px;
@@ -561,7 +564,7 @@ flex-direction: column;
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 8px;
+  margin-top: ;
 }
 .team-soc-item {
   width: 40px;
