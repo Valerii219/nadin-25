@@ -16,7 +16,7 @@
   /*- -----====================================----HERO-------------- */
 
   .hero {
-    background-image: var(--linear-gradient-bg), url(../images/photo-mob2.jpg);
+    background-image: var(--linear-gradient-bg), url(../images/mob-bg.jpg);
     max-width: 428px;
     margin: 0 auto;
     background-repeat: no-repeat;
@@ -29,7 +29,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero {
-      background-image: var(--linear-gradient-bg), url(../images/photo1.jpg);
+      background-image: var(--linear-gradient-bg), url(../images/mob-bg-2x.jpg);
     }
 
   }
