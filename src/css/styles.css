@@ -1,5 +1,5 @@
 :root {
-  --primery-text-color: #434455;
+  --primery-text-color: #325227;
   --title-text-color: --linear-gradient-bg: linear-gradient(
     rgba(34, 139, 34, 0.8),  // Темно-зелений
     rgba(50, 205, 50, 0.7)   // Яскравий зелений
@@ -25,7 +25,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Monserran';
   letter-spacing: 0.02em;
   color: var(--primery-text-color);
   background-color: var(--primery-background-color);
@@ -362,13 +362,14 @@ input {
   color: #fcfc30;
 }
 .hero-p{
+  
   width: 300px;
   color:var(--third-text-color);
   font-size: 22px;
   line-height: 1.11;
   margin-right: auto;
   margin-left: auto;
-  font-weight: 500;
+  font-weight: bold;
 
 }
 
@@ -949,8 +950,8 @@ section{
 
 /* ===================SECTION-DOCTOR============= */
 .section-team {
-  padding-top: 96px;
-  padding-bottom: 128px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   margin: 0 auto;
   background-color: var(--team-section-color);
 }
@@ -958,24 +959,34 @@ section{
   border-radius: 4px;
   margin-bottom: 20px;
 }
-/* .container-team{
-
-} */
-.doctor{
-  width: 100%;
-  flex-basis:  calc((100% - (2 - 1) * 24px) / 2);
+.section-team > .container-team{
+  display: flex
+  ;
+      flex-direction: column;
+      align-items: center;
 }
+.container-team > .avocado-img{
+  width: 250px;
+  height: 310px;
+}
+/* .doctor{
+ display: flex;
+ flex-direction: row;
+ text-align: center;
+} */
 
 .title-doctor{
-  
-    max-width: 330px;
+
     margin: 0 auto;
     text-align: center;
     margin-bottom: 20px;
     letter-spacing: .02em;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 24px;
+    
     line-height: 1.2;
+    font-family: "Forum", sans-serif; 
+font-weight: 400;
+    color: var(--primery-text-color)
 
 }
 .doctor-list{
@@ -983,6 +994,12 @@ section{
   flex-direction: column;
   align-items: center;
   margin-bottom: 20px;
+  font-family: Futura PT;
+}
+.span-doctor{
+  font-weight: bold;
+}.real{
+  text-align: center;
 }
 /* ===================/SECTION-DOCTOR============= */
 
@@ -992,8 +1009,8 @@ section{
 .section-receive{
 
   outline: 1px solid blue;
-  padding-top: 190px;
-  padding-bottom: 190px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .container-receive{
@@ -1001,14 +1018,38 @@ section{
 }
 .title-receive{
   max-width: 370px;
+  font-family: "Forum", sans-serif; 
+font-weight: 400;
   text-transform: uppercase;
   color: #30fc41;
   text-align: center;
   margin: 0 auto;
   font-size: 24px;
   line-height: 1.11;
+  margin-top: 20px;
+  margin-bottom: 20px;
  
 
+}
+
+.skills{
+  display:flex ;
+  justify-content: space-between;
+  
+}
+.list-skills{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+
+}
+.receive-list{
+  padding: 5px 30px 5px 30px;
+  border: transparent;
+  background-color: #c3cd4d;
 }
 
 /* ===================---/CONTAINER-RECEIVE============= */
