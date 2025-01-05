@@ -680,9 +680,7 @@ section{
   border-radius: 50%;
   transition: background-color var(--time-cubic);
 }
-.icons-footer {
-  fill: green;
-}
+
 .social-link:is(:hover, :focus) {
   background-color: var(--hover-footer-color);
 }
@@ -1049,7 +1047,7 @@ font-weight: 400;
 }
 .receive-list{
   width: 100%;
-  padding: 10px 10px;
+  padding: 10px 5px;
   border: transparent;
   background-color: #c3cd4d;
   border-radius: 4px;
@@ -1121,6 +1119,10 @@ line-height: 1.11;
   width: 233px;
   height: 300px;
   border-radius: 4px;
+
+}
+.before > .img-af-bf{
+  margin-bottom: 20px;
 }
 .before{
   display: flex;
@@ -1143,9 +1145,9 @@ line-height: 1.11;
 
 /* ===================NEW============ */
 .section-new{
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding: 210px 0;
   background-color: var(--team-section-color);
+  text-align: center;
 }
 .new-title{
   width: 318px;
@@ -1154,11 +1156,82 @@ line-height: 1.11;
   color: var(--primery-text-color);
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20px;
-  font-size: 24px;
+  margin-bottom: 200px;
+  font-size: 30px;
   line-height: 1.11;
+}
+.new-list-svg{
+  display: flex;
+  justify-content: space-around;
+  /* text-align: center; */
+}
+.icons-new{
+width: 100px;
+height: 100px;
+margin-bottom: 20px;
+}
+.text-new{
+  text-transform: uppercase;
+}
+
+/* ===================///NEW============ */
+
+
+
+/* ===================HEAD============ */
+.section-head{
+  padding: 200px 0;
+ 
+}
+.head-new{
+  /* background-color: var(--title-text-color); */
+  background-image:  url(../images/head.png);
+ 
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:-170px;
+  background-size: 350px 350px;
+ 
 }
 
 
 
-/* ===================///NEW============ */
+
+
+
+/* ===================///HEAD============ */
+
+/* ===================BODY============ */
+.section-body{
+  background-image:  url(../images/body.png);
+ 
+  padding-top: 250px;
+  padding-bottom: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:-90px;
+  background-size: 200px 400px;
+}
+
+.title-head{
+  text-align: center;
+  color: var(--third-text-color);
+  font-size: 30px;
+  line-height: 1.11;
+  margin-bottom: 20px;
+}
+.head-list-main{
+  list-style:circle;
+  color: var(--third-text-color);
+  font-size: 20px;
+  line-height: 1.11;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+/* ===================///BODY============ */
